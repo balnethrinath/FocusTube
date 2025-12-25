@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "FocusTube",
+  "version": "1.0.0",
+  "description": "A distraction-free YouTube experience that hides recommendations and keeps users focused on intentional content.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  "permissions": []
+}
