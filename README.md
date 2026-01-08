@@ -78,4 +78,48 @@ Open YouTube and experience distraction-free viewing 🧘‍♂️
 
 ---
 
-## 📈 F
+## 📈 Future Enhancements
+
+Planned improvements for FocusTube include:
+
+- 🔘 Extension-level toggle to enable or disable Focus Mode instantly
+- 🧭 Fine-grained controls for hiding specific sections (Home, Sidebar, Shorts)
+- ⏱ Session-based focus tracking (local only)
+- ⌨ Keyboard shortcuts for quick actions
+- 💾 Remember user preferences across sessions
+
+All future changes will continue to prioritize **simplicity, reversibility, and user control**.
+
+---
+
+## 🧪 Project Status
+
+**Active & Iterative**
+
+FocusTube is actively maintained and refined based on real-world usage and experimentation.  
+Features are added cautiously to avoid breaking YouTube’s core experience.
+
+---
+
+## 🛠 Tech Stack
+
+- JavaScript (ES6)
+- Chrome Extensions API (Manifest V3)
+- DOM APIs
+- MutationObserver
+- YouTube SPA navigation handling
+
+---
+
+## 👤 Author
+
+**Balne Thrinath**
+
+Built as a personal productivity tool and a practical exploration of browser internals, attention-aware UI design, and safe DOM manipulation.
+
+---
+
+## ⭐ Support
+
+If FocusTube helps you stay focused, consider giving the project a ⭐ on GitHub.  
+It helps others discover the project and supports continued improvement.
